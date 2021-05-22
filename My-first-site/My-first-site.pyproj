@@ -41,15 +41,15 @@
     <Compile Include="checks.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="main.py" />
+    <Compile Include="emails.py" />
     <Compile Include="myform.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="routes.py" />
-    <Compile Include="test_correct.py">
+    <Compile Include="email_test_correct.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="test_incorrect.py">
+    <Compile Include="email_test_incorrect.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>

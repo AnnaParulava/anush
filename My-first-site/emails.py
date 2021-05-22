@@ -1,6 +1,5 @@
 import unittest
 import re
-import unittest
 
 list_mail_uncor = ["1","wrw@ksjf...ksu","jhg.sds.dsf","","jsghfa"]
 list_mail_cor = ["m.m@mail.ru", "m1@gmail.com","131m@mail.com","jjjjj@qwe.ds", "ap55@yandex.com"]
