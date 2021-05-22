@@ -25,6 +25,7 @@
                 <ul class="nav navbar-nav">     
                     <li><a href="/about">Contact</a></li>
                     <li><a href="/contact">Sales</a></li>
+                    <li><a href="/articles">Articles</a></li>
                 </ul>         
                         </div>
                            <style>
