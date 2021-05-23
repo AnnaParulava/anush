@@ -43,21 +43,27 @@
         By {{value['author']}}
         </p>
         <p style="font-size:10pt">
-        Published on {{value['published_date']}}
+        Published on {{value['published_date']}}, written on {{value['written_date']}}
         </p>
         <p style="font-size:10pt">
-        email {{value['author_email']}}
+        Phone {{value['phone']}}
+        </p>
+        <p style="font-size:10pt">
+        Email {{value['author_email']}}
         </p>
     </div>
 %end
 
+
 <h2> Add your own article</h2>
 
 <form action="/articles" method="post">
-        <p><input rows="2" cols="50" name="TITLE" placeholder="Your article's title"></p>
-        <p><textarea type="text" size="50" name="DESCRIPTION" placeholder="Your article's description"></textarea></p>
-        <p><input rows="2" cols="50" name="AUTHOR" placeholder="Enter your name.."></p>
-        <p><input rows="2" cols="50" name="AUTHOR_EMAIL" placeholder="Enter your email.."></p> 
+        <p><input rows="2" cols="55" name="TITLE" placeholder="Your article's title"></p>
+        <p><textarea type="text" size="55" name="DESCRIPTION" placeholder="Your article's description"></textarea></p>
+        <p><input rows="2" cols="55" name="AUTHOR" placeholder="Enter your name.."></p>
+        <p><input rows="2" cols="55" name="PHONE" placeholder="Enter your phone.."></p>
+        <p><input rows="2" cols="55" name="AUTHOR_EMAIL" placeholder="Enter your email.."></p> 
+        <p><input rows="2" cols="55" name="WRITTEN_DATE" placeholder="Date of writing of the article"></p> 
         <p><input type="submit" value="Add" class="btn btn-default"></p>
 </form>
 

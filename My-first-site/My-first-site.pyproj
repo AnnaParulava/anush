@@ -41,7 +41,6 @@
     <Compile Include="checks.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="emails.py" />
     <Compile Include="myform.py">
       <SubType>Code</SubType>
     </Compile>
@@ -61,6 +60,7 @@
     <Folder Include="views\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="authors.json" />
     <Content Include="articles.json" />
     <Content Include="requirements.txt" />
     <Content Include="static\content\bootstrap.css" />
