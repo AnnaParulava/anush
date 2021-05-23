@@ -28,6 +28,10 @@ def add_article():
     if not checks.written_date_correct(written_date):
         return "Data should have a format 'YYYY-MM-DD' and not be after today"
 
+    # вызов метода для проверки корректности ввода номера телефона
+    if not checks.author_phone(phone):
+        return "Enter correct phone number!"
+
     # открытие файла для чтения для подсчета количества статей
     with open('./articles.json', 'r') as file:
         articles=json.load(file)

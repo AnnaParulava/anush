@@ -41,7 +41,19 @@
     <Compile Include="checks.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="data_test_correct.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="data_test_incorrect.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="myform.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="phone_test_correct.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="phone_test_incorrect.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="routes.py" />
