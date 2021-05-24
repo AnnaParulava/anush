@@ -41,26 +41,26 @@
     <Compile Include="checks.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="data_test_correct.py">
+    <Compile Include="test_data_correct.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="data_test_incorrect.py">
+    <Compile Include="test_data_incorrect.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="myform.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="phone_test_correct.py">
+    <Compile Include="test_phone_correct.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="phone_test_incorrect.py">
+    <Compile Include="test_phone_incorrect.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="routes.py" />
-    <Compile Include="email_test_correct.py">
+    <Compile Include="test_email_correct.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="email_test_incorrect.py">
+    <Compile Include="test_email_incorrect.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>

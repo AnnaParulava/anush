@@ -45,21 +45,3 @@ def add_article():
 
     return "The article is added!"
 
-
-
-##Метод для удаления статьи по её id
-#def delete_article(id): 
-#	articles = []
-#	with open('articles.json') as f: # Получение данных с файла articles.json
-#		file_content = f.read()
-#		articles = json.loads(file_content)
-#		articles = [x for i,x in enumerate(articles) if x['id']!=id] # Удаление статьи
-#	file = open("articles.json", 'w') # Запись в файл articles.json нового массива статей
-#	file.write(json.dumps(articles))
-#	file.close()
-#	return articles; # Возврат нового массива статей
-
-#@post('/articles/<id>', method='post') # Обработка формы для удаления статьи по её id
-#def delete(id):
-#	id = request.forms.get('ID')
-#	articles = delete_article(id) # Вызов метода удаления статьи
